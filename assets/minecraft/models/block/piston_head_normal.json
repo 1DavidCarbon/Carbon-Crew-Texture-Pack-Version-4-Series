@@ -1,0 +1,162 @@
+{
+"__comment": "3D Models by Sibsib92 with BDcraft Cubik PRO 0.87 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/piston_top_normal",
+    "iron": "blocks/iron_block",
+    "side": "blocks/piston_side"
+},
+"elements": [ 
+{
+    "__comment": "Iron Mid",
+    "from": [ 6.5, 6.5, 3 ],
+    "to": [ 9.5, 9.5, 11.5 ],
+    "faces": {
+        "down":  { "uv": [ 3, 6.5, 11.5, 9.5 ], "rotation": 90, "texture": "#iron" },
+        "up":    { "uv": [ 3, 6.5, 11.5, 9.5 ], "rotation": 90, "texture": "#iron" },
+        "west":  { "uv": [ 3, 6.5, 11.5, 9.5 ], "texture": "#iron" },
+        "east":  { "uv": [ 3, 6.5, 11.5, 9.5 ], "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron Mid",
+    "from": [ 6, 6, 11.5 ],
+    "to": [ 10, 10, 20.5 ],
+    "faces": {
+        "down":  { "uv": [ 3, 6.5, 12, 9.5 ], "rotation": 90, "texture": "#iron" },
+        "up":    { "uv": [ 3, 6.5, 12, 9.5 ], "rotation": 90, "texture": "#iron" },
+        "north": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#iron" },
+        "west":  { "uv": [ 3, 6.5, 12, 9.5 ], "texture": "#iron" },
+        "east":  { "uv": [ 3, 6.5, 12, 9.5 ], "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 0, 7, 0 ],
+    "to": [ 2, 9, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 0, 0, 0 ],
+    "to": [ 2, 2, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 7, 0, 0 ],
+    "to": [ 9, 2, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 0, 14, 0 ],
+    "to": [ 2, 16, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 7, 14, 0 ],
+    "to": [ 9, 16, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 14, 14, 0 ],
+    "to": [ 16, 16, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 14, 7, 0 ],
+    "to": [ 16, 9, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 14, 0, 0 ],
+    "to": [ 16, 2, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 10, 9, 6 ], "texture": "#iron" },
+        "up":    { "uv": [ 9, 6, 7, 10 ], "texture": "#iron" },
+        "north": { "uv": [ 7, 6.5, 9, 8.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7, 7, 9, 9 ], "texture": "#iron" },
+        "west":  { "uv": [ 9, 6, 7, 10 ], "rotation": 90, "texture": "#iron" },
+        "east":  { "uv": [ 7, 6, 9, 10 ], "rotation": 90, "texture": "#iron" }
+    }
+},
+{
+    "__comment": "Wood Front",
+    "from": [ 0.5, 0.5, 1 ],
+    "to": [ 15.5, 15.5, 3 ],
+    "faces": {
+        "down":  { "uv": [ 0.5, 15, 15.5, 13 ], "texture": "#particle" },
+        "up":    { "uv": [ 15.5, 1, 0.5, 3 ], "texture": "#particle" },
+        "north": { "uv": [ 0.5, 0.5, 15.5, 15.5 ], "texture": "#particle" },
+        "south": { "uv": [ 15.5, 0.5, 0.5, 15.5 ], "texture": "#particle" },
+        "west":  { "uv": [ 1, 0.5, 3, 15.5 ], "texture": "#particle" },
+        "east":  { "uv": [ 13, 0.5, 15, 15.5 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Iron Mid",
+    "from": [ 6.5, 6.5, 3 ],
+    "to": [ 9.5, 9.5, 11.5 ],
+    "faces": {
+        "down":  { "uv": [ 3, 6.5, 11.5, 9.5 ], "rotation": 90, "texture": "#iron" },
+        "up":    { "uv": [ 3, 6.5, 11.5, 9.5 ], "rotation": 90, "texture": "#iron" },
+        "west":  { "uv": [ 3, 6.5, 11.5, 9.5 ], "texture": "#iron" },
+        "east":  { "uv": [ 3, 6.5, 11.5, 9.5 ], "texture": "#iron" }
+    }
+}
+]
+}

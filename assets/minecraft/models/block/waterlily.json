@@ -1,0 +1,17 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/waterlily"
+},
+"elements": [ 
+{
+    "from": [ -2, -0.1875, -1 ],
+    "to": [ 17, -0.125, 17 ],
+    "faces": {
+        "down":  { "uv": [ 0, 16, 16, 0 ], "texture": "#particle", "tintindex": 0 },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#particle", "tintindex": 0 }
+    }
+}
+]
+}

@@ -1,0 +1,124 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/repeater_off",
+    "texture": "blocks/stone_slab_top",
+    "on": "blocks/redstone_block",
+    "off": "blocks/cauldron_inner",
+    "lock": "blocks/coal_block"
+},
+"elements": [ 
+{
+    "__comment": "Stone",
+    "from": [ 7, 0, 0 ],
+    "to": [ 9, 0.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 9, 16, 7, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 7, 0, 9, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 15.5, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 15.5, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Stone",
+    "from": [ 0, 0, 7 ],
+    "to": [ 16, 0.5, 9 ],
+    "faces": {
+        "down":  { "uv": [ 16, 9, 0, 7 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 7, 16, 9 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 15.5, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 15.5, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Stone",
+    "from": [ 6, 0, 1 ],
+    "to": [ 10, 1, 15 ],
+    "faces": {
+        "down":  { "uv": [ 10, 15, 6, 1 ], "texture": "#texture" },
+        "up":    { "uv": [ 6, 1, 10, 15 ], "texture": "#texture" },
+        "north": { "uv": [ 6, 15, 10, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 6, 15, 10, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 1, 15, 15, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 1, 15, 15, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Redstone",
+    "from": [ 7, 1, 2 ],
+    "to": [ 9, 4, 4 ],
+    "faces": {
+        "up":    { "uv": [ 7, 2, 9, 4 ], "texture": "#off" },
+        "north": { "uv": [ 7, 12, 9, 15 ], "texture": "#off" },
+        "south": { "uv": [ 7, 12, 9, 15 ], "texture": "#off" },
+        "west":  { "uv": [ 2, 12, 4, 15 ], "texture": "#off" },
+        "east":  { "uv": [ 12, 12, 14, 15 ], "texture": "#off" }
+    }
+},
+{
+    "__comment": "Display",
+    "from": [ 7, 1, 4.5 ],
+    "to": [ 9, 1.5, 6.5 ],
+    "faces": {
+        "up":    { "uv": [ 7, 4.5, 9, 6.5 ], "texture": "#on" },
+        "north": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" },
+        "south": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" },
+        "west":  { "uv": [ 4.5, 14.5, 6.5, 15 ], "texture": "#on" },
+        "east":  { "uv": [ 9.5, 14.5, 11.5, 15 ], "texture": "#on" }
+    }
+},
+{
+    "__comment": "Display",
+    "from": [ 7, 1, 7 ],
+    "to": [ 9, 1.5, 9 ],
+    "faces": {
+        "up":    { "uv": [ 7, 7, 9, 9 ], "texture": "#on" },
+        "north": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" },
+        "south": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" },
+        "west":  { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" },
+        "east":  { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" }
+    }
+},
+{
+    "__comment": "Display",
+    "from": [ 7, 1, 9.5 ],
+    "to": [ 9, 1.5, 11.5 ],
+    "faces": {
+        "up":    { "uv": [ 7, 9.5, 9, 11.5 ], "texture": "#on" },
+        "north": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" },
+        "south": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#on" },
+        "west":  { "uv": [ 9.5, 14.5, 11.5, 15 ], "texture": "#on" },
+        "east":  { "uv": [ 4.5, 14.5, 6.5, 15 ], "texture": "#on" }
+    }
+},
+{
+    "__comment": "Display",
+    "from": [ 7, 1, 12 ],
+    "to": [ 9, 1.5, 14 ],
+    "faces": {
+        "up":    { "uv": [ 7, 12, 9, 14 ], "texture": "#off" },
+        "north": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#off" },
+        "south": { "uv": [ 7, 14.5, 9, 15 ], "texture": "#off" },
+        "west":  { "uv": [ 12, 14.5, 14, 15 ], "texture": "#off" },
+        "east":  { "uv": [ 2, 14.5, 4, 15 ], "texture": "#off" }
+    }
+},
+{
+    "__comment": "Lock",
+    "from": [ 6.75, 1, 10.25 ],
+    "to": [ 9.25, 1.75, 10.75 ],
+    "faces": {
+        "up":    { "uv": [ 6.75, 10.25, 9.25, 10.75 ], "texture": "#lock" },
+        "north": { "uv": [ 6.75, 14.25, 9.25, 15 ], "texture": "#lock" },
+        "south": { "uv": [ 6.75, 14.25, 9.25, 15 ], "texture": "#lock" },
+        "west":  { "uv": [ 10.25, 14.25, 10.75, 15 ], "texture": "#lock" },
+        "east":  { "uv": [ 5.25, 14.25, 5.75, 15 ], "texture": "#lock" }
+    }
+}
+]
+}

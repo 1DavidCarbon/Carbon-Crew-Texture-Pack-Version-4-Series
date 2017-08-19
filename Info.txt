@@ -1,0 +1,12 @@
+Version 3.0	
+
+ -> Carbon Crew's TexturePack Info
+--------------- IMPORTANT -------------------
+
+ Make sure you have optifine installed or have used MCPatcher for all the features to function as intended. 
+ If you find any missing texture report it to The Carbon Crew channel or msg me on Carbon Crew channel
+  <<<<**Also make sure you have the latest version of optifine install/mcpatcher.*>>>>
+ 
+< Carbon Crew's TexturePack is a 64x resourcepack compilation of numerous other texturepacks. >
+<<<<**"I do not claim credit for most of the textures/sounds in the pack expect swords, theye was made by Carbon Crew!"**>>>>
+ 

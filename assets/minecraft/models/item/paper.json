@@ -1,0 +1,54 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.90 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "items/paper",
+    "texture": "blocks/quartz_block_top"
+},
+"elements": [ 
+{
+    "from": [ 3, 1, 7.5 ],
+    "to": [ 13, 15, 8 ],
+    "faces": {
+        "down":  { "uv": [ 13, 8, 3, 7.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 3, 7.5, 13, 8 ], "texture": "#texture" },
+        "north": { "uv": [ 3, 1, 13, 15 ], "texture": "#texture" },
+        "south": { "uv": [ 3, 1, 13, 15 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.5, 1, 8, 15 ], "texture": "#texture" },
+        "east":  { "uv": [ 8, 1, 8.5, 15 ], "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ -90, 0, 100 ],
+        "translation": [ 2.5, 1, -2.5 ],
+        "scale": [ 0.75, 0.75, 0.75 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, -30 ],
+        "translation": [ 0, 0, -4 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 90, 0, 0 ],
+        "translation": [ 0, -5, 0 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, -0.5 ],
+        "scale": [ 2, 2, 1 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, 115, 98 ],
+        "translation": [ 0, 2, -2 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "gui": {
+        "rotation": [ -90, 90, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    }
+}
+}

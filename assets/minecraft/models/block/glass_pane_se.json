@@ -1,0 +1,101 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/glass",
+    "texture": "blocks/planks_oak"
+},
+"elements": [ 
+{
+    "__comment": "Wood",
+    "from": [ 7, 15.5, 7 ],
+    "to": [ 16, 16, 9 ],
+    "faces": {
+        "down":  { "uv": [ 9, 9, 0, 7 ], "texture": "#texture" },
+        "up":    { "uv": [ 7, 7, 16, 9 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 0, 9, 0.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7, 0, 16, 0.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 7, 0, 9, 0.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 7, 0, 9, 0.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 7, 0, 7 ],
+    "to": [ 16, 0.5, 9 ],
+    "faces": {
+        "down":  { "uv": [ 9, 9, 0, 7 ], "texture": "#texture" },
+        "up":    { "uv": [ 7, 7, 16, 9 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 15.5, 9, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 7, 15.5, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 7, 15.5, 9 ],
+    "to": [ 9, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 9, 16, 7, 9 ], "texture": "#texture" },
+        "up":    { "uv": [ 7, 9, 9, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 7, 0, 9, 0.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7, 0, 9, 0.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 9, 0, 16, 0.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 7, 0.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 7, 0, 9 ],
+    "to": [ 9, 0.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 9, 16, 7, 9 ], "texture": "#texture" },
+        "up":    { "uv": [ 7, 9, 9, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 7, 15.5, 9, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 9, 15.5, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 15.5, 7, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 15.5, 0.5, 7 ],
+    "to": [ 16, 15.5, 9 ],
+    "faces": {
+        "north": { "uv": [ 0, 0.5, 0.5, 15.5 ], "texture": "#texture" },
+        "south": { "uv": [ 15.5, 0.5, 16, 15.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 7, 0.5, 9, 15.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 7, 0.5, 9, 15.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 7, 0.5, 15.5 ],
+    "to": [ 9, 15.5, 16 ],
+    "faces": {
+        "north": { "uv": [ 7, 0.5, 9, 15.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7, 0.5, 9, 15.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 15.5, 0.5, 16, 15.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0.5, 0.5, 15.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Glass",
+    "from": [ 8, 0.5, 8 ],
+    "to": [ 8.0625, 15.5, 15.5 ],
+    "faces": {
+        "west":  { "uv": [ 8, 0.5, 15.5, 15.5 ], "texture": "#particle" },
+        "east":  { "uv": [ 15.5, 0.5, 8, 15.5 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Glass",
+    "from": [ 8, 0.5, 8 ],
+    "to": [ 15.5, 15.5, 8.0625 ],
+    "faces": {
+        "north": { "uv": [ 15.5, 0.5, 8, 15.5 ], "texture": "#particle" },
+        "south": { "uv": [ 8, 0.5, 15.5, 15.5 ], "texture": "#particle" }
+    }
+}
+]
+}

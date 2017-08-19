@@ -1,0 +1,122 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.90 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "texture": "blocks/gold_block"
+},
+"elements": [ 
+{
+    "__comment": "Ingot",
+    "from": [ 0, 5.375, 4.0625 ],
+    "to": [ 16, 6.375, 11.9375 ],
+    "faces": {
+        "down":  { "uv": [ 16, 11.9375, 0, 4.0625 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 4.0625, 16, 11.9375 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 9.625, 16, 10.625 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 9.625, 16, 10.625 ], "texture": "#texture" },
+        "west":  { "uv": [ 4.0625, 9.625, 11.9375, 10.625 ], "texture": "#texture" },
+        "east":  { "uv": [ 4.0625, 9.625, 11.9375, 10.625 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Ingot",
+    "from": [ 0, 10, 6 ],
+    "to": [ 16, 11, 10 ],
+    "faces": {
+        "down":  { "uv": [ 16, 10, 0, 6 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 6, 16, 10 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 5, 16, 6 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 5, 16, 6 ], "texture": "#texture" },
+        "west":  { "uv": [ 6, 5, 10, 6 ], "texture": "#texture" },
+        "east":  { "uv": [ 6, 5, 10, 6 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Ingot",
+    "from": [ 0, 6, 6 ],
+    "to": [ 16, 11, 7 ],
+    "rotation": { "origin": [ 0, 11, 6 ], "axis": "x", "angle": 22.5 },
+    "faces": {
+        "down":  { "uv": [ 16, 7, 0, 6 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 6, 16, 7 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 5, 16, 10 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 5, 16, 10 ], "texture": "#texture" },
+        "west":  { "uv": [ 6, 5, 7, 10 ], "texture": "#texture" },
+        "east":  { "uv": [ 9, 5, 10, 10 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Ingot",
+    "from": [ 0, 5.625, 9.0625 ],
+    "to": [ 16, 10.625, 10.0625 ],
+    "rotation": { "origin": [ 0, 10.625, 9.0625 ], "axis": "x", "angle": -22.5 },
+    "faces": {
+        "down":  { "uv": [ 16, 10, 0, 9 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 9, 16, 10 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 5, 16, 10 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 5, 16, 10 ], "texture": "#texture" },
+        "west":  { "uv": [ 9, 5, 10, 10 ], "texture": "#texture" },
+        "east":  { "uv": [ 6, 5, 7, 10 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Ingot",
+    "from": [ 0.25, 6, 6 ],
+    "to": [ 15.75, 10, 10 ],
+    "faces": {
+        "west":  { "uv": [ 6, 6, 10, 10 ], "texture": "#texture" },
+        "east":  { "uv": [ 6, 6, 10, 10 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Ingot",
+    "from": [ 0.25, 6, 5 ],
+    "to": [ 15.75, 8.5, 6 ],
+    "faces": {
+        "west":  { "uv": [ 5, 7.5, 6, 10 ], "texture": "#texture" },
+        "east":  { "uv": [ 10, 7.5, 11, 10 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Ingot",
+    "from": [ 0.25, 6, 10 ],
+    "to": [ 15.75, 8.5, 11 ],
+    "faces": {
+        "west":  { "uv": [ 10, 7.5, 11, 10 ], "texture": "#texture" },
+        "east":  { "uv": [ 5, 7.5, 6, 10 ], "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ 0, 90, -135 ],
+        "translation": [ 0, 1, -2 ],
+        "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "head": {
+        "rotation": [ 0, 45, 0 ],
+        "translation": [ 0, 4.5, 0 ],
+        "scale": [ 0.75, 0.75, 0.75 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, 45, 45 ],
+        "translation": [ 0, 2, 1 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "gui": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1.25, 1.25, 1.25 ]
+    }
+}
+}

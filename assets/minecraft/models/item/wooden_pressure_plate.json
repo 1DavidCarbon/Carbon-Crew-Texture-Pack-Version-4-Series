@@ -1,0 +1,80 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/planks_oak"
+},
+"elements": [ 
+{
+    "__comment": "Wood",
+    "from": [ 1, 0, 1 ],
+    "to": [ 15, 1, 5 ],
+    "faces": {
+        "down":  { "uv": [ 1, 5, 15, 1 ], "texture": "#particle" },
+        "up":    { "uv": [ 1, 1, 15, 5 ], "texture": "#particle" },
+        "north": { "uv": [ 15, 1, 1, 2 ], "texture": "#particle" },
+        "south": { "uv": [ 1, 4, 15, 5 ], "texture": "#particle" },
+        "west":  { "uv": [ 1, 5, 2, 1 ], "rotation": 90, "texture": "#particle" },
+        "east":  { "uv": [ 14, 1, 15, 5 ], "rotation": 90, "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 1, 0, 6 ],
+    "to": [ 15, 1, 10 ],
+    "faces": {
+        "down":  { "uv": [ 1, 10, 15, 6 ], "texture": "#particle" },
+        "up":    { "uv": [ 1, 6, 15, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 15, 6, 1, 7 ], "texture": "#particle" },
+        "south": { "uv": [ 1, 9, 15, 10 ], "texture": "#particle" },
+        "west":  { "uv": [ 1, 10, 2, 6 ], "rotation": 90, "texture": "#particle" },
+        "east":  { "uv": [ 14, 6, 15, 10 ], "rotation": 90, "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 1, 0, 11 ],
+    "to": [ 15, 1, 15 ],
+    "faces": {
+        "down":  { "uv": [ 1, 15, 15, 11 ], "texture": "#particle" },
+        "up":    { "uv": [ 1, 11, 15, 15 ], "texture": "#particle" },
+        "north": { "uv": [ 15, 11, 1, 12 ], "texture": "#particle" },
+        "south": { "uv": [ 1, 14, 15, 15 ], "texture": "#particle" },
+        "west":  { "uv": [ 1, 15, 2, 11 ], "rotation": 90, "texture": "#particle" },
+        "east":  { "uv": [ 14, 11, 15, 15 ], "rotation": 90, "texture": "#particle" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ 0, 45, 0 ],
+        "translation": [ 0, 3, -3 ],
+        "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 7.5, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "fixed": {
+        "rotation": [ -90, 0, 0 ],
+        "translation": [ 0, 0, -8 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, -15, 0 ],
+        "translation": [ 0, 5.5, 2 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "gui": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 3, 0 ],
+        "scale": [ 1, 1, 1 ]
+    }
+}
+}

@@ -1,0 +1,44 @@
+{
+    "variants": {
+        "facing=north,part=foot": [
+		{ "model": "bed_pillow", "y": 180, "weight": 100 },
+		{ "model": "bed_pillow_1", "y": 180, "weight": 10 },
+		{ "model": "bed_pillow_2", "y": 180, "weight": 10 },
+		{ "model": "bed_pillow_3", "y": 180, "weight": 10 }
+],
+        "facing=east,part=foot": [
+		{ "model": "bed_pillow", "y": 270, "weight": 100 },
+		{ "model": "bed_pillow_1", "y": 270, "weight": 10 },
+		{ "model": "bed_pillow_2", "y": 270, "weight": 10 },
+		{ "model": "bed_pillow_3", "y": 270, "weight": 10 }
+],
+        "facing=south,part=foot": [
+		{ "model": "bed_pillow", "weight": 100 },
+		{ "model": "bed_pillow_1", "weight": 10 },
+		{ "model": "bed_pillow_2", "weight": 10 },
+		{ "model": "bed_pillow_3", "weight": 10 }
+],
+        "facing=west,part=foot": [
+		{ "model": "bed_pillow", "y": 90, "weight": 100 },
+		{ "model": "bed_pillow_1", "y": 90, "weight": 10 },
+		{ "model": "bed_pillow_2", "y": 90, "weight": 10 },
+		{ "model": "bed_pillow_3", "y": 90, "weight": 10 }
+],
+        "facing=north,part=head": [
+		{ "model": "bed", "y": 180, "weight": 10 },
+		{ "model": "bed_1", "y": 180, "weight": 2 }
+],
+        "facing=east,part=head": [
+		{ "model": "bed", "y": 270, "weight": 10 },
+		{ "model": "bed_1", "y": 270, "weight": 2 }
+],
+        "facing=south,part=head": [
+		{ "model": "bed", "weight": 10 },
+		{ "model": "bed_1", "weight": 2 }
+],
+        "facing=west,part=head": [
+		{ "model": "bed", "y": 90, "weight": 10 },
+		{ "model": "bed_1", "y": 90, "weight": 2 }
+]
+    }
+}

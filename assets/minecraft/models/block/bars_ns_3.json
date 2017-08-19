@@ -1,0 +1,63 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.85 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/iron_bars"
+},
+"elements": [ 
+{
+    "__comment": "Vertical",
+    "from": [ 7, 0, 7.5 ],
+    "to": [ 9, 16, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 3, 4, 4, 2 ], "texture": "#particle" },
+        "up":    { "uv": [ 15, 7, 16, 9 ], "texture": "#particle" },
+        "north": { "uv": [ 13, 0, 12, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 13, 0, 14, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 12, 0, 14, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 14, 0, 12, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Vertical",
+    "from": [ 7.5, 0, 7 ],
+    "to": [ 8.5, 16, 9 ],
+    "faces": {
+        "down":  { "uv": [ 3, 4, 4, 2 ], "texture": "#particle" },
+        "up":    { "uv": [ 15, 7, 16, 9 ], "texture": "#particle" },
+        "north": { "uv": [ 13, 0, 12, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 13, 0, 14, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 12, 0, 14, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 14, 0, 12, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Horizontal",
+    "from": [ 7.625, 12.5, 0 ],
+    "to": [ 8.125, 13, 16 ],
+    "rotation": { "origin": [ 7.625, 13, 0 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "down":  { "uv": [ 8.5, 16, 9, 0 ], "texture": "#particle" },
+        "up":    { "uv": [ 8.5, 0, 9, 16 ], "texture": "#particle" },
+        "north": { "uv": [ 8.5, 0, 9, 0.5 ], "texture": "#particle" },
+        "south": { "uv": [ 8.5, 15.5, 9, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 8.5, 16, 9, 0 ], "rotation": 90, "texture": "#particle" },
+        "east":  { "uv": [ 8.5, 0, 9, 16 ], "rotation": 90, "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Horizontal",
+    "from": [ 7, 1.6875, 0 ],
+    "to": [ 8.375, 3, 16 ],
+    "rotation": { "origin": [ 7, 3, 0 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "down":  { "uv": [ 7.5, 16, 8, 0 ], "texture": "#particle" },
+        "up":    { "uv": [ 7, 0, 7.5, 16 ], "texture": "#particle" },
+        "north": { "uv": [ 8.5, 0, 9, 0.5 ], "texture": "#particle" },
+        "south": { "uv": [ 8.5, 15.5, 9, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 7, 16, 7.5, 0 ], "rotation": 90, "texture": "#particle" },
+        "east":  { "uv": [ 7.5, 0, 8, 16 ], "rotation": 90, "texture": "#particle" }
+    }
+}
+]
+}

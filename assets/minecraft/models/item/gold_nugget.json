@@ -1,0 +1,129 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.91 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/gold_block"
+},
+"elements": [ 
+{
+    "__comment": "Gold",
+    "from": [ 4, 9, 6 ],
+    "to": [ 12, 13, 10 ],
+    "faces": {
+        "down":  { "uv": [ 12, 10, 4, 6 ], "texture": "#particle" },
+        "up":    { "uv": [ 4, 6, 12, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 4, 3, 12, 7 ], "texture": "#particle" },
+        "south": { "uv": [ 4, 3, 12, 7 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 3, 10, 7 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 3, 10, 7 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 6, 9, 4 ],
+    "to": [ 10, 13, 12 ],
+    "faces": {
+        "down":  { "uv": [ 12, 10, 4, 6 ], "rotation": 270, "texture": "#particle" },
+        "up":    { "uv": [ 4, 6, 12, 10 ], "rotation": 90, "texture": "#particle" },
+        "north": { "uv": [ 6, 3, 10, 7 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 3, 10, 7 ], "texture": "#particle" },
+        "west":  { "uv": [ 4, 3, 12, 7 ], "texture": "#particle" },
+        "east":  { "uv": [ 4, 3, 12, 7 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 6, 3, 6 ],
+    "to": [ 10, 15, 10 ],
+    "faces": {
+        "down":  { "uv": [ 10, 10, 6, 6 ], "texture": "#particle" },
+        "up":    { "uv": [ 6, 6, 10, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 6, 1, 10, 13 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 1, 10, 13 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 1, 10, 13 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 1, 10, 13 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 5, 5, 6 ],
+    "to": [ 11, 9, 10 ],
+    "faces": {
+        "down":  { "uv": [ 11, 10, 5, 6 ], "texture": "#particle" },
+        "north": { "uv": [ 5, 7, 11, 11 ], "texture": "#particle" },
+        "south": { "uv": [ 5, 7, 11, 11 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 7, 10, 11 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 7, 10, 11 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 6, 5, 5 ],
+    "to": [ 10, 9, 11 ],
+    "faces": {
+        "down":  { "uv": [ 12, 10, 4, 6 ], "rotation": 270, "texture": "#particle" },
+        "north": { "uv": [ 6, 3, 10, 7 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 3, 10, 7 ], "texture": "#particle" },
+        "west":  { "uv": [ 4, 3, 12, 7 ], "texture": "#particle" },
+        "east":  { "uv": [ 4, 3, 12, 7 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 7, 2, 7 ],
+    "to": [ 9, 3, 9 ],
+    "faces": {
+        "down":  { "uv": [ 9, 9, 7, 7 ], "texture": "#particle" },
+        "north": { "uv": [ 7, 13, 9, 14 ], "texture": "#particle" },
+        "south": { "uv": [ 7, 13, 9, 14 ], "texture": "#particle" },
+        "west":  { "uv": [ 7, 13, 9, 14 ], "texture": "#particle" },
+        "east":  { "uv": [ 7, 13, 9, 14 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 5, 9, 5 ],
+    "to": [ 11, 14, 11 ],
+    "faces": {
+        "down":  { "uv": [ 11, 11, 5, 5 ], "texture": "#particle" },
+        "up":    { "uv": [ 5, 5, 11, 11 ], "texture": "#particle" },
+        "north": { "uv": [ 5, 2, 11, 7 ], "texture": "#particle" },
+        "south": { "uv": [ 5, 2, 11, 7 ], "texture": "#particle" },
+        "west":  { "uv": [ 5, 2, 11, 7 ], "texture": "#particle" },
+        "east":  { "uv": [ 5, 2, 11, 7 ], "texture": "#particle" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ -145, -45, 0 ],
+        "translation": [ 0, 0.5, -2 ],
+        "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "head": {
+        "rotation": [ 0, 45, 0 ],
+        "translation": [ 0, 4, 0 ],
+        "scale": [ 0.25, 0.25, 0.25 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 1, 2.5 ],
+        "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "gui": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ]
+    }
+}
+}

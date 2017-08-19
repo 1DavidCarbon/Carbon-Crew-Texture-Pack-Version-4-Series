@@ -1,0 +1,24 @@
+{
+    "variants": {
+        "facing=north": [
+			 { "model": "ladder", "weight": 15 },
+			 { "model": "ladder_1", "weight": 2 },
+			 { "model": "ladder_2", "weight": 2 }
+	],
+        "facing=east":  [
+			 { "model": "ladder", "y": 90, "weight": 15 },
+			 { "model": "ladder_1", "y": 90, "weight": 2 },
+			 { "model": "ladder_2", "y": 90, "weight": 2 }
+	],
+        "facing=south": [
+			 { "model": "ladder", "y": 180, "weight": 15 },
+			 { "model": "ladder_1", "y": 180, "weight": 2 },
+			 { "model": "ladder_2", "y": 180, "weight": 2 }
+	],
+        "facing=west":  [
+			 { "model": "ladder", "y": 270, "weight": 15 },
+			 { "model": "ladder_1", "y": 270, "weight": 2 },
+			 { "model": "ladder_2", "y": 270, "weight": 2 }
+	]
+    }
+}

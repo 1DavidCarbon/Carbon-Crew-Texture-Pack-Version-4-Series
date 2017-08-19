@@ -1,0 +1,243 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/gold_block"
+},
+"elements": [ 
+{
+    "__comment": "Gold",
+    "from": [ 6, 0, 5 ],
+    "to": [ 10, 0.5, 11 ],
+    "faces": {
+        "down":  { "uv": [ 10, 11, 6, 5 ], "texture": "#particle" },
+        "up":    { "uv": [ 6, 5, 10, 11 ], "texture": "#particle" },
+        "north": { "uv": [ 6, 15.5, 10, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 15.5, 10, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 5, 15.5, 11, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 5, 15.5, 11, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 5, 0, 6 ],
+    "to": [ 11, 0.5, 10 ],
+    "faces": {
+        "down":  { "uv": [ 11, 10, 5, 6 ], "texture": "#particle" },
+        "up":    { "uv": [ 5, 6, 11, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 5, 15.5, 11, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 5, 15.5, 11, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 15.5, 10, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 15.5, 10, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 6, 0, 1 ],
+    "to": [ 10, 1, 3 ],
+    "faces": {
+        "down":  { "uv": [ 10, 3, 6, 1 ], "texture": "#particle" },
+        "up":    { "uv": [ 6, 1, 10, 3 ], "texture": "#particle" },
+        "north": { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 1, 15, 3, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 13, 15, 15, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 9, 0, 2 ],
+    "to": [ 12, 1, 4 ],
+    "faces": {
+        "down":  { "uv": [ 7, 4, 4, 2 ], "texture": "#particle" },
+        "up":    { "uv": [ 9, 2, 12, 4 ], "texture": "#particle" },
+        "north": { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 11, 0, 3 ],
+    "to": [ 13, 1, 5 ],
+    "faces": {
+        "down":  { "uv": [ 5, 5, 3, 3 ], "texture": "#particle" },
+        "up":    { "uv": [ 11, 3, 13, 5 ], "texture": "#particle" },
+        "north": { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 12, 0, 4 ],
+    "to": [ 14, 1, 7 ],
+    "faces": {
+        "down":  { "uv": [ 4, 7, 2, 4 ], "texture": "#particle" },
+        "up":    { "uv": [ 12, 4, 14, 7 ], "texture": "#particle" },
+        "north": { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 6, 0, 13 ],
+    "to": [ 10, 1, 15 ],
+    "faces": {
+        "down":  { "uv": [ 10, 15, 6, 13 ], "texture": "#particle" },
+        "up":    { "uv": [ 6, 13, 10, 15 ], "texture": "#particle" },
+        "north": { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 13, 15, 15, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 1, 15, 3, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 9, 0, 12 ],
+    "to": [ 12, 1, 14 ],
+    "faces": {
+        "down":  { "uv": [ 7, 14, 4, 12 ], "texture": "#particle" },
+        "up":    { "uv": [ 9, 12, 12, 14 ], "texture": "#particle" },
+        "north": { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 11, 0, 11 ],
+    "to": [ 13, 1, 13 ],
+    "faces": {
+        "down":  { "uv": [ 5, 13, 3, 11 ], "texture": "#particle" },
+        "up":    { "uv": [ 11, 11, 13, 13 ], "texture": "#particle" },
+        "north": { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 12, 0, 9 ],
+    "to": [ 14, 1, 12 ],
+    "faces": {
+        "down":  { "uv": [ 4, 12, 2, 9 ], "texture": "#particle" },
+        "up":    { "uv": [ 12, 9, 14, 12 ], "texture": "#particle" },
+        "north": { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 13, 0, 6 ],
+    "to": [ 15, 1, 10 ],
+    "faces": {
+        "down":  { "uv": [ 3, 10, 1, 6 ], "texture": "#particle" },
+        "up":    { "uv": [ 13, 6, 15, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 1, 15, 3, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 13, 15, 15, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 4, 0, 2 ],
+    "to": [ 7, 1, 4 ],
+    "faces": {
+        "down":  { "uv": [ 12, 4, 9, 2 ], "texture": "#particle" },
+        "up":    { "uv": [ 4, 2, 7, 4 ], "texture": "#particle" },
+        "north": { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 3, 0, 3 ],
+    "to": [ 5, 1, 5 ],
+    "faces": {
+        "down":  { "uv": [ 13, 5, 11, 3 ], "texture": "#particle" },
+        "up":    { "uv": [ 3, 3, 5, 5 ], "texture": "#particle" },
+        "north": { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 2, 0, 4 ],
+    "to": [ 4, 1, 7 ],
+    "faces": {
+        "down":  { "uv": [ 14, 7, 12, 4 ], "texture": "#particle" },
+        "up":    { "uv": [ 2, 4, 4, 7 ], "texture": "#particle" },
+        "north": { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 4, 0, 12 ],
+    "to": [ 7, 1, 14 ],
+    "faces": {
+        "down":  { "uv": [ 12, 14, 9, 12 ], "texture": "#particle" },
+        "up":    { "uv": [ 4, 12, 7, 14 ], "texture": "#particle" },
+        "north": { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 3, 0, 11 ],
+    "to": [ 5, 1, 13 ],
+    "faces": {
+        "down":  { "uv": [ 13, 13, 11, 11 ], "texture": "#particle" },
+        "up":    { "uv": [ 3, 11, 5, 13 ], "texture": "#particle" },
+        "north": { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 11, 15, 13, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 3, 15, 5, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 2, 0, 9 ],
+    "to": [ 4, 1, 12 ],
+    "faces": {
+        "down":  { "uv": [ 14, 12, 12, 9 ], "texture": "#particle" },
+        "up":    { "uv": [ 2, 9, 4, 12 ], "texture": "#particle" },
+        "north": { "uv": [ 12, 15, 14, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 2, 15, 4, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 9, 15, 12, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 4, 15, 7, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 1, 0, 6 ],
+    "to": [ 3, 1, 10 ],
+    "faces": {
+        "down":  { "uv": [ 15, 10, 13, 6 ], "texture": "#particle" },
+        "up":    { "uv": [ 1, 6, 3, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 13, 15, 15, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 1, 15, 3, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 15, 10, 16 ], "texture": "#particle" }
+    }
+}
+]
+}

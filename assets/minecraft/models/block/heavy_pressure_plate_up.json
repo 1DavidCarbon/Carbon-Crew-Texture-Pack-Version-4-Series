@@ -1,0 +1,70 @@
+{
+"__comment": "Designed by Sibsib92 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/iron_block"
+},
+"elements": [ 
+{
+    "__comment": "Iron",
+    "from": [ 1, 0, 1 ],
+    "to": [ 3, 1, 15 ],
+    "faces": {
+        "down":  { "uv": [ 15, 15, 13, 1 ], "texture": "#particle" },
+        "up":    { "uv": [ 1, 1, 3, 15 ], "texture": "#particle" },
+        "north": { "uv": [ 13, 15, 15, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 1, 15, 3, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 1, 15, 15, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 1, 15, 15, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 3, 0, 1 ],
+    "to": [ 13, 1, 3 ],
+    "faces": {
+        "down":  { "uv": [ 13, 3, 3, 1 ], "texture": "#particle" },
+        "up":    { "uv": [ 3, 1, 13, 3 ], "texture": "#particle" },
+        "north": { "uv": [ 3, 15, 13, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 3, 15, 13, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 13, 0, 1 ],
+    "to": [ 15, 1, 15 ],
+    "faces": {
+        "down":  { "uv": [ 3, 15, 1, 1 ], "texture": "#particle" },
+        "up":    { "uv": [ 13, 1, 15, 15 ], "texture": "#particle" },
+        "north": { "uv": [ 1, 15, 3, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 13, 15, 15, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 1, 15, 15, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 1, 15, 15, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 3, 0, 13 ],
+    "to": [ 13, 1, 15 ],
+    "faces": {
+        "down":  { "uv": [ 13, 15, 3, 13 ], "texture": "#particle" },
+        "up":    { "uv": [ 3, 13, 13, 15 ], "texture": "#particle" },
+        "north": { "uv": [ 3, 15, 13, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 3, 15, 13, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Iron",
+    "from": [ 5, 0, 5 ],
+    "to": [ 11, 1, 11 ],
+    "faces": {
+        "down":  { "uv": [ 11, 11, 5, 5 ], "texture": "#particle" },
+        "up":    { "uv": [ 5, 5, 11, 11 ], "texture": "#particle" },
+        "north": { "uv": [ 5, 15, 11, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 5, 15, 11, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 5, 15, 11, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 5, 15, 11, 16 ], "texture": "#particle" }
+    }
+}
+]
+}

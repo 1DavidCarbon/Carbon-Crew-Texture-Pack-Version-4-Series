@@ -1,0 +1,171 @@
+{
+"__comment": "3D Models by Sibsib92 with BDcraft Cubik PRO 0.87 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/rail_golden",
+    "texture": "blocks/planks_oak",
+    "inner": "blocks/anvil_base",
+    "outer": "blocks/iron_block",
+    "gold": "blocks/gold_block",
+    "redstone": "blocks/cauldron_inner"
+},
+"elements": [ 
+{
+    "__comment": "Wood",
+    "from": [ 1, 0, 5 ],
+    "to": [ 15, 1, 7 ],
+    "faces": {
+        "down":  { "uv": [ 1, 7, 15, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 1, 5, 15, 7 ], "texture": "#texture" },
+        "north": { "uv": [ 15, 5, 1, 6 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 6, 15, 7 ], "texture": "#texture" },
+        "west":  { "uv": [ 1, 7, 2, 5 ], "rotation": 90, "texture": "#texture" },
+        "east":  { "uv": [ 14, 5, 15, 7 ], "rotation": 90, "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Wood",
+    "from": [ 1, 0, 9 ],
+    "to": [ 15, 1, 11 ],
+    "faces": {
+        "down":  { "uv": [ 1, 11, 15, 9 ], "texture": "#texture" },
+        "up":    { "uv": [ 1, 9, 15, 11 ], "texture": "#texture" },
+        "north": { "uv": [ 15, 9, 1, 10 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 10, 15, 11 ], "texture": "#texture" },
+        "west":  { "uv": [ 1, 11, 2, 9 ], "rotation": 90, "texture": "#texture" },
+        "east":  { "uv": [ 14, 9, 15, 11 ], "rotation": 90, "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Inner",
+    "from": [ 3, 1, 0 ],
+    "to": [ 4, 2, 16 ],
+    "faces": {
+        "down":  { "uv": [ 1, 16, 0, 0 ], "texture": "#inner" },
+        "up":    { "uv": [ 0, 0, 1, 16 ], "texture": "#inner" },
+        "north": { "uv": [ 0, 0, 1, 1 ], "texture": "#inner" },
+        "south": { "uv": [ 0, 15, 1, 16 ], "texture": "#inner" },
+        "east":  { "uv": [ 0, 0, 1, 16 ], "rotation": 90, "texture": "#inner" }
+    }
+},
+{
+    "__comment": "Inner",
+    "from": [ 12, 1, 0 ],
+    "to": [ 13, 2, 16 ],
+    "faces": {
+        "down":  { "uv": [ 1, 16, 0, 0 ], "texture": "#inner" },
+        "up":    { "uv": [ 0, 0, 1, 16 ], "texture": "#inner" },
+        "north": { "uv": [ 0, 0, 1, 1 ], "texture": "#inner" },
+        "south": { "uv": [ 0, 15, 1, 16 ], "texture": "#inner" },
+        "west":  { "uv": [ 0, 16, 1, 0 ], "rotation": 90, "texture": "#inner" }
+    }
+},
+{
+    "__comment": "Outer",
+    "from": [ 2, 1, 0 ],
+    "to": [ 3, 2.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 0, 0, 1 ], "rotation": 90, "texture": "#outer" },
+        "up":    { "uv": [ 0, 0, 16, 1 ], "rotation": 90, "texture": "#outer" },
+        "north": { "uv": [ 15, 0, 16, 1 ], "texture": "#outer" },
+        "south": { "uv": [ 0, 0, 1, 1 ], "texture": "#outer" },
+        "west":  { "uv": [ 0, 0, 16, 1 ], "texture": "#outer" },
+        "east":  { "uv": [ 16, 0, 0, 1 ], "texture": "#outer" }
+    }
+},
+{
+    "__comment": "Outer",
+    "from": [ 13, 1, 0 ],
+    "to": [ 14, 2.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 0, 0, 1 ], "rotation": 90, "texture": "#outer" },
+        "up":    { "uv": [ 0, 0, 16, 1 ], "rotation": 90, "texture": "#outer" },
+        "north": { "uv": [ 15, 0, 16, 1 ], "texture": "#outer" },
+        "south": { "uv": [ 0, 0, 1, 1 ], "texture": "#outer" },
+        "west":  { "uv": [ 0, 0, 16, 1 ], "texture": "#outer" },
+        "east":  { "uv": [ 16, 0, 0, 1 ], "texture": "#outer" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 4, 1, 0 ],
+    "to": [ 5, 1.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 0, 0, 1 ], "rotation": 90, "texture": "#gold" },
+        "up":    { "uv": [ 0, 0, 16, 1 ], "rotation": 90, "texture": "#gold" },
+        "north": { "uv": [ 15, 0, 16, 1 ], "texture": "#gold" },
+        "south": { "uv": [ 0, 0, 1, 1 ], "texture": "#gold" },
+        "east":  { "uv": [ 16, 0, 0, 1 ], "texture": "#gold" }
+    }
+},
+{
+    "__comment": "Gold",
+    "from": [ 11, 1, 0 ],
+    "to": [ 12, 1.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 0, 0, 1 ], "rotation": 90, "texture": "#gold" },
+        "up":    { "uv": [ 0, 0, 16, 1 ], "rotation": 90, "texture": "#gold" },
+        "north": { "uv": [ 15, 0, 16, 1 ], "texture": "#gold" },
+        "south": { "uv": [ 0, 0, 1, 1 ], "texture": "#gold" },
+        "west":  { "uv": [ 0, 0, 16, 1 ], "texture": "#gold" }
+    }
+},
+{
+    "__comment": "Redstone",
+    "from": [ 7, 0.25, 0 ],
+    "to": [ 9, 0.75, 16 ],
+    "faces": {
+        "down":  { "uv": [ 9, 16, 7, 0 ], "texture": "#redstone" },
+        "up":    { "uv": [ 7, 0, 9, 16 ], "texture": "#redstone" },
+        "north": { "uv": [ 7, 15.25, 9, 15.75 ], "texture": "#redstone" },
+        "south": { "uv": [ 7, 15.25, 9, 15.75 ], "texture": "#redstone" },
+        "west":  { "uv": [ 0, 15.25, 16, 15.75 ], "texture": "#redstone" },
+        "east":  { "uv": [ 0, 15.25, 16, 15.75 ], "texture": "#redstone" }
+    }
+},
+{
+    "__comment": "Redstone",
+    "from": [ 5, 1, 5 ],
+    "to": [ 6, 1.5, 7 ],
+    "faces": {
+        "up":    { "uv": [ 5, 5, 6, 7 ], "texture": "#redstone" },
+        "north": { "uv": [ 10, 14.5, 11, 15 ], "texture": "#redstone" },
+        "south": { "uv": [ 5, 14.5, 6, 15 ], "texture": "#redstone" },
+        "east":  { "uv": [ 9, 14.5, 11, 15 ], "texture": "#redstone" }
+    }
+},
+{
+    "__comment": "Redstone",
+    "from": [ 10, 1, 5 ],
+    "to": [ 11, 1.5, 7 ],
+    "faces": {
+        "up":    { "uv": [ 10, 5, 11, 7 ], "texture": "#redstone" },
+        "north": { "uv": [ 5, 14.5, 6, 15 ], "texture": "#redstone" },
+        "south": { "uv": [ 10, 14.5, 11, 15 ], "texture": "#redstone" },
+        "west":  { "uv": [ 5, 14.5, 7, 15 ], "texture": "#redstone" }
+    }
+},
+{
+    "__comment": "Redstone",
+    "from": [ 5, 1, 9 ],
+    "to": [ 6, 1.5, 11 ],
+    "faces": {
+        "up":    { "uv": [ 5, 9, 6, 11 ], "texture": "#redstone" },
+        "north": { "uv": [ 10, 14.5, 11, 15 ], "texture": "#redstone" },
+        "south": { "uv": [ 5, 14.5, 6, 15 ], "texture": "#redstone" },
+        "east":  { "uv": [ 5, 14.5, 7, 15 ], "texture": "#redstone" }
+    }
+},
+{
+    "__comment": "Redstone",
+    "from": [ 10, 1, 9 ],
+    "to": [ 11, 1.5, 11 ],
+    "faces": {
+        "up":    { "uv": [ 10, 9, 11, 11 ], "texture": "#redstone" },
+        "north": { "uv": [ 5, 14.5, 6, 15 ], "texture": "#redstone" },
+        "south": { "uv": [ 10, 14.5, 11, 15 ], "texture": "#redstone" },
+        "west":  { "uv": [ 9, 14.5, 11, 15 ], "texture": "#redstone" }
+    }
+}
+]
+}

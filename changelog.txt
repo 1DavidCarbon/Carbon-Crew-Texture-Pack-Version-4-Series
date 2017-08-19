@@ -1,0 +1,46 @@
+Version 4.0
+
+  "Carbon Crew's TexturePack Changelog"
+=================================
+---Changes v4.0
+-Complete Overhaul To Textures
+-Added few 3D Textures
+
+--Changes v3.0--
+- ReChanged Sky
+--Changed Icons
+-- Added More Splash Txt
+
+
+--Changes v2.0--
+-Remaked new flowors...
+-fixed some small bugs
+-remaked enderpearl
+-Changed pack name to "v2.0"
+-full updated from 1.7.* to latest version (1.7.9)
+-New Splash potion animation!
+-New Crit Animation and Bow Shoot Animation
+-Some new HUD armor icons color
+-Remade some small things
+-NEW COLORS!!
+-New Sky - and night sky
+-New Carbon Crew Logo Pack
+-Added 15 more Splash Text
+-Takes Less Time To Load Texture Pack By 2 Seconds
+-Textures Are Fix When Using Optifine 1.7.10
+
+--Changes v1.0--
+- Remaked the colors on some blocks and items
+- Changed particels
+- Fixed some bugs
+- Renamed the texturepack to "Carbon Crew x64 v1.0"
+- Updated to 1.7.2 but still in progress
+- Fixed Colors
+- Remaked the Swords
+- added some new sounds
+- added rainbow xp drop
+
+****The TexturePack updates Will be update all the time for all minecraft future VERSION****
+**************************Check updates on www.carbon-crew.weebly.com and more Information***************************************
+
+

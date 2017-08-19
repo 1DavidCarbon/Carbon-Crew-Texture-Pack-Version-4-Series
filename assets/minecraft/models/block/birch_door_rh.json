@@ -1,0 +1,207 @@
+{
+"__comment": "3D Models by Sibsib92 with BDcraft Cubik PRO 0.87 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/door_birch_lower",
+    "texture": "blocks/planks_birch",
+    "door top": "blocks/door_birch_upper"
+},
+"elements": [ 
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0, 16, 14 ],
+    "to": [ 1.5, 30, 15.5 ],
+    "rotation": { "origin": [ 0, 16, 14 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "north": { "uv": [ 13, 2, 14, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0.875, 16, 14 ],
+    "to": [ 2.375, 30, 15.5 ],
+    "rotation": { "origin": [ 0.875, 16, 14 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "east":  { "uv": [ 2, 2, 3, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0, 16, 2 ],
+    "to": [ 1.5, 30, 3.5 ],
+    "rotation": { "origin": [ 0, 16, 2 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 2, 2, 3, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0.875, 16, 2 ],
+    "to": [ 2.375, 30, 3.5 ],
+    "rotation": { "origin": [ 0.875, 16, 2 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "south": { "uv": [ 13, 2, 14, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Horiz",
+    "from": [ 0, 9.5, 2 ],
+    "to": [ 1.5, 11, 14 ],
+    "rotation": { "origin": [ 0, 11, 2 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "up":    { "uv": [ 2, 4, 14, 5 ], "rotation": 90, "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Horiz",
+    "from": [ 0.875, 9.5, 2 ],
+    "to": [ 2.375, 11, 14 ],
+    "rotation": { "origin": [ 0.875, 11, 2 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "east":  { "uv": [ 2, 4, 14, 5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Horiz",
+    "from": [ 0, 28.5, 2 ],
+    "to": [ 1.5, 30, 14 ],
+    "rotation": { "origin": [ 0, 30, 2 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 2, 2, 14, 3 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Horiz",
+    "from": [ 0.875, 28.5, 2 ],
+    "to": [ 2.375, 30, 14 ],
+    "rotation": { "origin": [ 0.875, 30, 2 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "down":  { "uv": [ 2, 2, 14, 3 ], "rotation": 90, "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Door Bot",
+    "from": [ 0, 11, 14 ],
+    "to": [ 3, 16, 16 ],
+    "faces": {
+        "north": { "uv": [ 13, 0, 16, 5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 3, 5 ], "texture": "#texture" },
+        "west":  { "uv": [ 14, 0, 16, 5 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 2, 5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Door Bot",
+    "from": [ 0, 11, 0 ],
+    "to": [ 3, 16, 2 ],
+    "faces": {
+        "north": { "uv": [ 13, 0, 16, 5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 3, 5 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 2, 5 ], "texture": "#texture" },
+        "east":  { "uv": [ 14, 0, 16, 5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Door Bot",
+    "from": [ 0, 0, 0 ],
+    "to": [ 3, 11, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 15, 0, 12 ], "rotation": 90, "texture": "#texture" },
+        "up":    { "uv": [ 0, 4, 16, 7 ], "rotation": 90, "texture": "#texture" },
+        "north": { "uv": [ 13, 5, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 5, 3, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 5, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 5, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Door Bot",
+    "from": [ 1, 11, 2 ],
+    "to": [ 2, 16, 14 ],
+    "faces": {
+        "west":  { "uv": [ 2, 0, 14, 5 ], "texture": "#particle" },
+        "east":  { "uv": [ 2, 0, 14, 5 ], "texture": "#particle" }
+    }
+},
+{
+    "__comment": "Door Top",
+    "from": [ 0, 16, 14 ],
+    "to": [ 3, 30, 16 ],
+    "faces": {
+        "north": { "uv": [ 13, 2, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 2, 3, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 14, 2, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 2, 2, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Door Top",
+    "from": [ 0, 16, 0 ],
+    "to": [ 3, 30, 2 ],
+    "faces": {
+        "north": { "uv": [ 13, 2, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 2, 3, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 2, 2, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 14, 2, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Door Top",
+    "from": [ 0, 30, 0 ],
+    "to": [ 3, 32, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 15, 0, 12 ], "rotation": 90, "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 16, 3 ], "rotation": 90, "texture": "#texture" },
+        "north": { "uv": [ 13, 0, 16, 2 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 3, 2 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 16, 2 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 16, 2 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Door Top",
+    "from": [ 1, 16, 2 ],
+    "to": [ 2, 30, 14 ],
+    "faces": {
+        "west":  { "uv": [ 2, 2, 14, 16 ], "texture": "#door top" },
+        "east":  { "uv": [ 2, 2, 14, 16 ], "texture": "#door top" }
+    }
+},
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0, 11, 14 ],
+    "to": [ 1.5, 16, 15.5 ],
+    "rotation": { "origin": [ 0, 11, 14 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "north": { "uv": [ 13, 0, 14, 5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0.875, 11, 14 ],
+    "to": [ 2.375, 16, 15.5 ],
+    "rotation": { "origin": [ 0.875, 11, 14 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "east":  { "uv": [ 2, 0, 3, 5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0, 11, 2 ],
+    "to": [ 1.5, 16, 3.5 ],
+    "rotation": { "origin": [ 0, 11, 2 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 2, 0, 3, 5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Top Diag Vert",
+    "from": [ 0.875, 11, 2 ],
+    "to": [ 2.375, 16, 3.5 ],
+    "rotation": { "origin": [ 0.875, 11, 2 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "south": { "uv": [ 13, 0, 14, 5 ], "texture": "#texture" }
+    }
+}
+]
+}

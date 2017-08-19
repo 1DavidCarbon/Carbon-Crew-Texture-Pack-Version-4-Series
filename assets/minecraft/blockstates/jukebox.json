@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "jukebox", "weight": 26 },
+{ "model": "jukebox", "y": 90, "weight": 25 },
+{ "model": "jukebox", "y": 180, "weight": 25 },
+{ "model": "jukebox", "y": 270, "weight": 25 }
+]
+    }
+}

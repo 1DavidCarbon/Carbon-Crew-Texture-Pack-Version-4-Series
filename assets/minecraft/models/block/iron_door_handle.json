@@ -1,0 +1,49 @@
+{
+"__comment": "3D Models by Sibsib92 with BDcraft Cubik PRO 0.87 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/door_iron_upper",
+    "texture": "blocks/cauldron_inner"
+},
+"elements": [ 
+{
+    "__comment": "Hinge",
+    "from": [ -0.25, -12, -0.25 ],
+    "to": [ 3.25, -10, 0.75 ],
+    "faces": {
+        "down":  { "uv": [ 3, 1, 0, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 3, 1 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 0, 3, 2 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 3, 2 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 1, 2 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 1, 2 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Hinge",
+    "from": [ -0.25, -1, -0.25 ],
+    "to": [ 3.25, 1, 0.75 ],
+    "faces": {
+        "down":  { "uv": [ 3, 1, 0, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 3, 1 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 0, 3, 2 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 3, 2 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 1, 2 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 1, 2 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Hinge",
+    "from": [ -0.25, 10, -0.25 ],
+    "to": [ 3.25, 12, 0.75 ],
+    "faces": {
+        "down":  { "uv": [ 3, 1, 0, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 3, 1 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 0, 3, 2 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 3, 2 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 1, 2 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 1, 2 ], "texture": "#texture" }
+    }
+}
+]
+}

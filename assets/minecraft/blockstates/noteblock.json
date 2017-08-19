@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "noteblock", "weight": 25 },
+{ "model": "noteblock", "y": 90, "weight": 25 },
+{ "model": "noteblock", "y": 180, "weight": 25 },
+{ "model": "noteblock", "y": 270, "weight": 25 }
+]
+    }
+}
